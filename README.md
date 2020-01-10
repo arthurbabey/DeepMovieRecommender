@@ -27,7 +27,7 @@ We use the following libraries with the mentionned version.
  Tensorflow==1.8.0, 
  Scipy==1.2.1, 
  Numpy==1.16.2, 
- Pandas==0.24.2,
+ Pandas==0.25.2,
  Networkx==2.2,
  Pgeocode==0.2.0
 ```
