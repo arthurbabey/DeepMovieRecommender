@@ -1,5 +1,5 @@
 # DeepMovieRecommender
-This repository contains the code and dasaset (MovieLens-100k) to perform a graph based matrix completion in order to predict movie ratings. The method and the code are based on Van der Berg et al. work, source code can be found at github.com/riannevdberg/gc-mc. 
+This repository contains the code and dasaset (MovieLens-100k) to perform a graph based matrix completion in order to predict movie ratings. The method and the code are based on Van der Berg et al. work, source code can be found at [Github repo](https://www.github.com/riannevdberg/gc-mc).
 
 
 
