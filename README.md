@@ -24,7 +24,7 @@ This project has been developped using `Python 3.6`.
 We use the following libraries with the mentionned version.
 
 ```bash
-`Tensorflow==1.15, 
+ Tensorflow==1.8.0, 
  Scipy==1.2.1, 
  Numpy==1.16.2, 
  Pandas==0.24.2,
