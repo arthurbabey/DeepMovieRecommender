@@ -1,9 +1,10 @@
 # DeepMovieRecommender
-This repository contains the code and dasaset (MovieLens-100k) to perform a graph based matrix completion in order to predict movie ratings. The method and the code are based on Van der Berg et al. work, source code can be found at [Github repo](https://www.github.com/riannevdberg/gc-mc).
+This repository contains the code and dasaset (MovieLens-100k) to perform a graph convolutional matrix completion in order to predict movie ratings. The method and the code are based on Van der Berg et al. work, the source code can be found here: `[Github repository](https://www.github.com/riannevdberg/gc-mc).`
 
 
 
  # How to run the code
+ 
  First you will need to install the external libraries listed below. 
  To obtain extended features by scrapping you can run the get_imdb_id.ipynb notebook.
  Then to load the data, visualize them, build features matrix and train the model you can run the movielens.ipynb notebook.
