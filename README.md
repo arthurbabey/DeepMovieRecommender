@@ -7,7 +7,7 @@ This repository contains the code and dasaset (MovieLens-100k) to perform a grap
  
  First you will need to install the external libraries listed below. 
  To obtain extended features by scrapping you can run the get_imdb_id.ipynb notebook.
- Then to load the data, visualize them, build features matrix and train the model you can run the movielens.ipynb notebook.
+ Then to load the data, visualize them, build features matrix and train the model you can run the ntds_project.ipynb notebook.
 
 
 
@@ -42,11 +42,14 @@ We use the following libraries with the mentionned version.
 ├── movielens-100k           data set
 │                               
 ├── get_imdb_id.ipynb        scrapping notebook
+│  
+├── ntds_project.ipynb       main notebook
 │ 
-│ 
-├── movielens.ipynb          main notebook
-
-
-  
+├── model.py                 model implementation
+├── data_utils.py            util function
+├── layers.py                layers for model 
+├── metrics.py               metrics function
+├── run_gcmc.py              training 
+├── train_mini_batch.py      mini_batch training
    
 </pre>
