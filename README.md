@@ -1,6 +1,12 @@
 # DeepMovieRecommender
+This repository contains the code and dasaset (MovieLens-100k) to perform a graph based matrix completion in order to predict movie ratings. The method and the code are based on Van der Berg et al. work, source code can be found at github.com/riannevdberg/gc-mc. 
 
 
+
+ # How to run the code
+ First you will need to install the external libraries listed below. 
+ To obtain extended features by scrapping you can run the get_imdb_id.ipynb notebook.
+ Then to load the data, visualize them, build features matrix and train the model you can run the movielens.ipynb notebook.
 
 
 
@@ -16,36 +22,30 @@
 This project has been developped using `Python 3.6`.
 We use the following libraries with the mentionned version.
 
-`Tensorflow : '2.1.0-rc1', 
- Sklearn : '0.21.3', 
- Numpy : '1.17.4', 
- Scikit-image : '0.15.0'
- Keras : '2.3.1')`
- 
+```bash
+`Tensorflow==1.15', 
+ Scipy==1.2.1', 
+ Numpy==1.16.2', 
+ Pandas==0.24.2',
+ Networkx==2.2',
+ Pgeocode==0.2.0
+```
+
  
  
 # Repo structure
 <pre>
 .
-├── README.md
+├── README.md                   
 │                           
-├── datasets            
-│   └── training
-│   │    ├── groundtruth                     Label images (400x400)
-│   │    └── images                          Satelite images (400x400)
-|   └── test_set_images                      Satelite images (608x608)
+├── movielens-100k           data set
 │                               
-│  
-├── report                                  Final report
-├── scripts                                   
-│   │──helpers_unet.py
-│   │  
-│   │──│unet.py 
-│   │ 
-│   ├── notebooks
-│   │   ├── unet.ipynb  
-│   │
-│   └── best_model                      Folder to place our best model download from the link mentionned above
-│         
-└── submissions                         Best submission on AIcrowd
+├── get_imdb_id.ipynb        scrapping notebook
+│ 
+│ 
+├── movielens.ipynb          main notebook
+
+
+  
+   
 </pre>
