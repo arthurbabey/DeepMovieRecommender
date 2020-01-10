@@ -1,5 +1,5 @@
 # DeepMovieRecommender
-This repository contains the code and dasaset (MovieLens-100k) to perform a graph convolutional matrix completion in order to predict movie ratings. The method and the code are based on Van der Berg et al. work, the source code can be found here: `[Github repository](https://www.github.com/riannevdberg/gc-mc).`
+This repository contains the code and dasaset (MovieLens-100k) to perform a graph convolutional matrix completion in order to predict movie ratings. The method and the code are based on Van der Berg et al. work, the source code can be found here: [Github repository](https://www.github.com/riannevdberg/gc-mc).
 
 
 
@@ -24,11 +24,11 @@ This project has been developped using `Python 3.6`.
 We use the following libraries with the mentionned version.
 
 ```bash
-`Tensorflow==1.15', 
- Scipy==1.2.1', 
- Numpy==1.16.2', 
- Pandas==0.24.2',
- Networkx==2.2',
+`Tensorflow==1.15, 
+ Scipy==1.2.1, 
+ Numpy==1.16.2, 
+ Pandas==0.24.2,
+ Networkx==2.2,
  Pgeocode==0.2.0
 ```
 
