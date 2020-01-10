@@ -50,6 +50,11 @@ We use the following libraries with the mentionned version.
 ├── layers.py                layers for model 
 ├── metrics.py               metrics function
 ├── run_gcmc.py              training 
+├── preprocessing.py         preprocessing function
+├── utils.py                 util function
 ├── train_mini_batch.py      mini_batch training
+├── initialization.py        variable initialization
+├── __intit__.py       
+
    
 </pre>
