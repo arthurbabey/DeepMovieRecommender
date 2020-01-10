@@ -13,7 +13,7 @@ This repository contains the code and dasaset (MovieLens-100k) to perform a grap
 
  # Contributors
 
-- Nessredine Loudiy [@Loudiy](https://github.com/Loudiy)
+- Nessreddine Loudiy [@Loudiy](https://github.com/Loudiy)
 - Stanislas Ducotterd [@StanislasDucotterd](https://github.com/StanislasDucotterd)
 - Lamyae Omari Alaoui [@lomarial](https://github.com/lomarial)
 - Arthur Babey [@arthurbabey](https://github.com/arthurbabey)
